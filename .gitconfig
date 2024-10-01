@@ -2,3 +2,18 @@
 	name = Josilandio
 [init]
 	defaultBranch = main
+[alias]
+	branchs = branch -a
+	create = checkout -b
+	return = checkout
+	delet = branch -d
+	rname = branch -m
+	amend = commit --amend
+	logs = log --oneline
+	reset-soft = reset --soft HEAD^
+	reset-hard = reset --hard HEAD^
+	very = "!func(){ git status && git branchs -q; }; func"
+[color]
+	ui = true
+[core]
+	editor = vim
