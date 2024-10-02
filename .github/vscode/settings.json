@@ -1,0 +1,78 @@
+{
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "newUntitledFile",
+  // Visual.
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Min Dark",
+  //
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "symbols.hidesExplorerArrows": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": true,
+  "explorer.fileNesting.enabled": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "workbench.colorCustomizations": {
+    // Terminal.
+    "terminal.foreground": "#ffffff",
+    "terminal.background": "#1e1e1e",
+    "terminal.ansiBlack": "#1e1e1e",
+    "terminal.ansiBlue": "#0a84ff",
+    "terminal.ansiCyan": "#5ac8fa",
+    "terminal.ansiGreen": "#32d74b",
+    "terminal.ansiMagenta": "#bf5af2",
+    "terminal.ansiRed": "#ff453a",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#ffd60a",
+    "terminal.ansiBrightBlack": "#1e1e1e",
+    "terminal.ansiBrightBlue": "#0a84ff",
+    "terminal.ansiBrightCyan": "#5ac8fa",
+    "terminal.ansiBrightGreen": "#32d74b",
+    "terminal.ansiBrightMagenta": "#bf5af2",
+    "terminal.ansiBrightRed": "#ff453a",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffd60a",
+    "terminal.selectionBackground": "#4a504d",
+    "terminalCursor.foreground": "#32d74b"
+  },
+  // Disabling features.
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  // Extensions.
+  "gitlens.currentLine.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.titleBarStyle": "native",
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "git.ignoreLimitWarning": true,
+  "workbench.activityBar.location": "hidden",
+  "git.openRepositoryInParentFolders": "never"
+}
